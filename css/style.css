@@ -42,3 +42,27 @@ body {
    color: #8B00FF;
 }
 
+.main {
+    min-height: 100vh;
+}
+
+.title h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.content p {
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+
+.footer {
+    color: #8B00FF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
