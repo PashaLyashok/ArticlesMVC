@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Potta One', cursive;
+    background-color: #FFC0CB;
+}
+
+.site {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container_header {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    margin-top: 30px;
+}
+
+.header_title {
+    color: #8B00FF;
+}
+
+.nav {
+    text-align: right;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin: 5px 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color:#A52A2A;
+}
+
+.nav ul li a:hover {
+   color: #8B00FF;
+}
+
