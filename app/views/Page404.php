@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Views;
+
+abstract class Page404 {
+
+    static function render($data = []) {
+        
+        ob_start();
+
+        require_once './app/layouts/header.php';
+        require_once './app/layouts/nav.php';
+        require_once './app/layouts/404.php';
+        require_once './app/layouts/footer.php';
+
+        $html = ob_get_clean();
+        echo $html;
+
+    }
+}
